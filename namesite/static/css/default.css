@@ -1,0 +1,101 @@
+body {
+	font-size: normal;
+	background-color: #9FB3BF;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #333;
+}
+
+#content {
+	width: 600px;
+	padding: 2px 0px;
+	margin: 100px auto 100px auto;
+	background-color: #B5B8AB;
+	text-align: center;
+
+	/* rounding */
+    -moz-border-radius: 25px; 
+	-webkit-border-radius: 25px; 
+    border-radius: 25px; 
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+
+	/* shadow */
+    -moz-box-shadow: 2px 2px 13px #000; 
+	-webkit-box-shadow: 2px 2px 13px #000; 
+    box-shadow: 2px 2px 13px #000; 
+}
+
+h1 {
+	font-weight: normal;
+    text-shadow: 1px 1px 3px #888; 
+}
+
+#content a {
+	color: #333;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+li {
+	padding: 0px 50px;
+	font-size: 0.8em;
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+#content li a {
+	color: #036;
+}
+
+.name {
+	width: 100%;
+	background-color: #8A8C82;
+	border-bottom: 2px solid #333;
+	border-top: 2px solid #333;
+	color: #E9EFF2;
+	font-family: 'Calligraffitti', cursive;
+	line-height: 3em;
+	font-size: 3em;
+}
+
+#content .name a {
+	color: #E9EFF2;
+}
+
+div#social {
+	text-align: center;
+	width: 100%;
+}
+
+div#social div.center {
+	width: 200px;
+	height: 100px;
+	margin: auto;
+	clear: both;
+}
+
+div.social {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin: 20px;
+}
+
+div.about {
+	text-align: left;
+	padding: 10px;
+}
+
+div#content div.about a {
+	color: #008;
+}
+div#content div.about a:visited {
+	color: #404;
+}
+div#content div.about a:hover {
+	border-bottom: 1px dotted #333;
+}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block basecontent %}
+{% block content %}{% endblock content %}
+<div id="social">
+  <div class="center">
+	{% load social %}
+	{% gplus "http://randomname.alwaysdata.net" %}	{% facebook "http://randomname.alwaysdata.net" %}
+  </div>
+</div>
+{% endblock basecontent %}
